@@ -1,0 +1,13 @@
+p {
+  font-family: Lato;
+}
+
+.flexbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: 24px;
+  height: 100px;
+  align-items: center;
+}

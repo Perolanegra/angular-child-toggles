@@ -1,0 +1,7 @@
+.child {
+  height: 30px;
+  background-color: brown;
+  color: rgb(10, 10, 10);
+  padding: 14px;
+  cursor: pointer;
+}

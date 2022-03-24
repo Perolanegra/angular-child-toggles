@@ -1,0 +1,13 @@
+<div class="flexbox">
+  <app-child
+    #child1
+    [textColumn]="1"
+    (click)="child2.hasChangedState = !child2.hasChangedState"
+  ></app-child>
+
+  <app-child
+    #child2
+    [textColumn]="2"
+    (click)="child1.hasChangedState = !child1.hasChangedState"
+  ></app-child>
+</div>
